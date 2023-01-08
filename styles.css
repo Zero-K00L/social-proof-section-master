@@ -19,7 +19,6 @@ html {
 
 body {
     font-family: 'League Spartan', sans-serif; 
-    
 }
 
 .main {
@@ -107,23 +106,40 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
+    left: 4px;
+    top: -2px;
 }
 
 .star-icon {
     padding-top: 17px;
-    padding-right: 10px;
+    padding-right: 8px;
 }
 
 .rating-stats {
     text-align: center;
     color: var(--veryDarkMagenta);
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 12px;
+    font-size: 17px;
+    position: relative;
+    left: 4px;
 }
 
 .rating-3 {
     margin-bottom: 47px;
+}
+
+.stats-2 {
+    position: relative;
+    left: -1px;
+    top: -1px;
+}
+
+.stats-3 {
+    position: relative;
+    left: -1px;
+    top: -1px;
 }
 
 .review-container {
