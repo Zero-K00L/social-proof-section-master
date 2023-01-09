@@ -162,3 +162,31 @@ body {
     line-height: 20px;
 }
 
+/* Media Query */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main {
+        width: 100%;
+        max-width: 1440px;
+        height: 800px;
+        border: 1px solid black;
+    }
+
+    .review-container {
+        display: inline-block;
+        margin-bottom: 16px;
+    }
+
+    .review-wrapper {
+        width: 100%;
+        max-width: 327px;
+        height: 248px;
+        background-color: var(--veryDarkMagenta);
+        border-radius: 8px;
+        color: var(--white);
+    }
+    .review-1 {
+        margin-left: 231px;
+    }
+} 
